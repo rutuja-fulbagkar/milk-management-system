@@ -1,0 +1,49 @@
+git remote add origin https://github.com/rutuja-fulbagkar/testtwofolders.git
+git branch -M main
+git push -u origin main
+
+
+echo "# testtwofolders" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rutuja-fulbagkar/testtwofolders.git
+git push -u origin main
+
+want a two-level branch workflow where you:
+Work individually on client_rutu and server_rutu.
+Merge them into dev_client / dev_server for integration testing.
+Finally merge into main (production-ready).
+
+##############Working on client_rutu → merging into dev_client → then into main############
+
+milk-management-system/
+│
+├── client/   # React app
+├── server/   # Node/Express backend
+└── .git/     # single git repo for both
+git init
+git remote add origin https://github.com/<your-username>/milk-management-system.git
+git add .
+git commit -m "Initial commit with client and server folders"
+git push -u origin main
+
+
+
+git checkout client_rutu
+git status
+git add client/
+git commit -m "Client: added summary"
+git push origin client_rutu
+
+
+git checkout server_rutu
+git status
+git add server/
+git commit -m "server: added summary"
+git push origin server_rutu
+
+
+
+
