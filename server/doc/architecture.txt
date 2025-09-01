@@ -1,0 +1,37 @@
+1. Admin / Dairy Owner Module :
+Dashboard → overview of milk collection, sales, payments, dues
+User Management – add/edit farmers, customers, delivery boys.(Farmer/Dairy Owner, Distributor/Supplier, Customer).
+Milk Collection – record liters, fat %, SNF, rate.
+Customer Management – subscriptions, delivery schedule, addresses.
+Billing & Invoicing – auto-generate bills (daily/weekly/monthly).
+Payment Management → track paid/unpaid bills, payment modes (cash/UPI).
+Report Generation → daily milk collection, sales report, outstanding dues.
+
+in future :
+Inventory/Product Management (Future) – manage products like curd, paneer, ghee.
+Notifications (Future) – SMS/WhatsApp bill alerts, reminders.
+
+2.Supplier / Distributor Module(For people who deliver milk to customers)
+Delivery Schedule → assign milk to customers by route/area.
+Customer Orders → update delivered quantity (in case of changes).
+Billing Access → view customer bills for collection.
+Payment Collection → mark payments collected during delivery.
+Delivery Reports → delivered quantity, returns (if any).
+
+3.Farmer Module && milk providers to the dairy.
+Farmer Profile → name, contact, bank details.
+Milk Supply Records – daily entry of milk given (liters, fat %, price).
+Payment Tracking – how much they are owed, history of payments.
+Reports – monthly supply summary, fat-based rate sheet.
+Notifications – payment reminder, new rates, collection status.
+Payment Calculation → based on rate per liter / fat %.
+Statements → farmer can see how much dairy owes them.
+
+3. Customer Module
+Subscription/Order Management – daily ½ liter, 1 liter, weekly plan.
+Billing History – past bills, current month usage.
+Profile Management → name, address, contact, plan (daily/weekly/monthly).
+Usage Tracking → see daily/monthly milk usage.
+Notifications – SMS/WhatsApp bill & payment reminders.
+Feedback/Support (Future) – complaints, delivery issues.
+
