@@ -1,0 +1,6 @@
+System Utility Module ⚙️ (supporting module)
+
+Authentication & Roles → login system (admin, supplier, customer, farmer).
+Language Settings → Marathi, Hindi, English.
+Backup & Restore → data safety.
+Export/Import → bills/reports in Excel/PDF.

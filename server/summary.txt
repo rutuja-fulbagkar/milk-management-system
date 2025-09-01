@@ -1,0 +1,4 @@
+
+main → Always stable, production-ready code.
+dev → Integration branch, where features are merged after testing.
+git remote add origin https://github.com/rutuja-fulbagkar/milk-management-system.git
