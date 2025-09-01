@@ -1,0 +1,15 @@
+Create new branches from your current code
+git checkout -b client_rutu
+git add client
+git commit -m "Initial client code"
+git push origin client_rutu
+
+Create dev branches for merging
+git checkout -b dev_client
+git merge client_rutu
+git push origin dev_client
+
+Merge dev branches into main after testing
+git checkout main
+git merge dev_client
+git push origin main
