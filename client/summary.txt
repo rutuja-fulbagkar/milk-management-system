@@ -38,4 +38,12 @@ git commit -m "Client: added summary"
 git push origin client_rutu
 
 
+git checkout server_rutu
+git status
+git add server/
+git commit -m "server: added summary"
+git push origin server_rutu
+
+
+
 
