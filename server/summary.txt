@@ -20,5 +20,9 @@ Finally:
 after testing → merge dev_client + dev_server into main
 
 
+<<<<<<< Updated upstream
 it has goejhejhiine
  
+=======
+ 
+>>>>>>> Stashed changes
