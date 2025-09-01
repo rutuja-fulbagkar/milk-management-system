@@ -2,3 +2,20 @@
 main → Always stable, production-ready code.
 dev → Integration branch, where features are merged after testing.
 git remote add origin https://github.com/rutuja-fulbagkar/milk-management-system.git
+
+want:
+
+client_rutu → only client code
+
+server_rutu → only server code
+
+Then:
+
+client_rutu → merge into dev_client
+
+server_rutu → merge into dev_server
+
+Finally:
+
+after testing → merge dev_client + dev_server into main
+git remote add origin https://github.com/rutuja-fulbagkar/milk-management-system.git
