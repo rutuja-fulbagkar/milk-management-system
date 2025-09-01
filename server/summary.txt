@@ -11,7 +11,7 @@ client_rutu → merge into dev_client
 server_rutu → merge into dev_server
 Finally:
 after testing → merge dev_client + dev_server into main
-
+ 
 Working on Server
 git checkout dev_server  
 git pull origin dev_server
