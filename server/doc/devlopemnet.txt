@@ -1,0 +1,56 @@
+System Utility Module ⚙️ (supporting module)
+
+Authentication & Roles → login system (admin, supplier, customer, farmer).
+Language Settings → Marathi, Hindi, English.
+Backup & Restore → data safety.
+Export/Import → bills/reports in Excel/PDF.
+///////////////////////////////////////////////////
+using two-level branch workflow where you:
+Work individually on client_rutu and server_rutu.
+Merge them into dev_client / dev_server for integration testing.
+Finally merge into main (production-ready).
+
+##############Working on client_rutu → merging into dev_client → then into main############
+
+milk-management-system/
+│
+├── client/   # React app
+├── server/   # Node/Express backend
+└── .git/     # single git repo for both
+git init
+git remote add origin https://github.com/<your-username>/milk-management-system.git
+git add .
+git commit -m "Initial commit with client and server folders"
+git push -u origin main
+
+
+
+
+git checkout client_rutu
+git status
+git add client/
+git commit -m "Client: added summary"
+git push origin client_rutu
+
+
+git checkout server_rutu
+git status
+git add server/
+git commit -m "server: added summary"
+git push origin server_rutus
+
+
+
+1.Remove old Git history (only local, files remain safe)
+rmdir .git /s /q
+git init
+git remote add origin https://github.com/rutuja-fulbagkar/milk-management-system.git
+2.Create a clean main branch with empty history
+git checkout --orphan clean_branch
+git commit --allow-empty -m "Clean start"
+git push origin clean_branch:main --force
+
+git checkout -b client_rutu
+git add client/
+git commit -m "Add client module"
+git push -u origin client_rutu
