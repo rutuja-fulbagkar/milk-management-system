@@ -18,3 +18,6 @@ server_rutu → merge into dev_server
 Finally:
 
 after testing → merge dev_client + dev_server into main
+
+
+it has goejhejhiine
