@@ -1,0 +1,47 @@
+- npm init
+- npm install express mongoose dotenv cors bcrypt jsonwebtoken multer nodemailer node-cron uuid morgan helmet validator body-parser nodemon
+
+✅ Breakdown of why each is included:
+express – web framework
+mongoose – MongoDB ORM
+dotenv – environment variables
+cors – handle cross-origin requests
+bcrypt – password hashing
+jsonwebtoken – JWT authentication
+multer – file uploads (like images)
+nodemailer – send emails
+node-cron – scheduling tasks (billing, notifications)
+uuid – generate unique IDs
+morgan – request logging
+helmet – security headers
+validator – input validation
+body-parser – parse request bodies
+nodemon – dev dependency for auto-restarting server
+
+project-name/
+├── config/
+│   └── db.js                
+├── controllers/
+│
+│   
+├── middlewares/
+│  
+│    
+├── models/
+│  
+├── routes/
+│   
+├── services/
+│  
+├── utils/
+│   
+├── public/                 # Static files (images, CSS, etc.)
+├── uploads/                 # Dynamic files (images, CSS, etc.)
+├── .env                    # Environment variables
+├── .gitignore              # Files to be ignored by Git
+├── package.json            # Project metadata and dependencies
+├── server.js               # Entry point of the application
+|── env.js                  # Environment variable configuration
+
+
+ 
