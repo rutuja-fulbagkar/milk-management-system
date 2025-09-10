@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoolerERP – Smart Solutions for Service Management</title>
+    <!--  -->
+    <meta name="description" content="CoolerERP is a smart solution for efficient service management. Manage, schedule, and optimize operations seamlessly." />
+    <meta name="keywords" content="CoolerERP, Service Management, ERP, Business Software, Scheduling, CRM" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="CoolerERP Team" />
+    <link rel="canonical" href="https://admin.freshefy.in/" />
+    <!--  -->
+    <meta property="og:title" content="CoolerERP – Smart Solutions for Service Management" />
+    <meta property="og:description" content="Smart, efficient, and scalable ERP for service-based businesses." />
+    <meta property="og:image" content="https://admin.freshefy.in/preview-image.jpg" />
+    <meta property="og:url" content="https://admin.freshefy.in/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CoolerERP – Smart Solutions for Service Management" />
+    <meta name="twitter:description" content="Smart, efficient, and scalable ERP for service-based businesses." />
+    <meta name="twitter:image" content="https://admin.freshefy.in/preview-image.jpg" />
+    <script>
+      if (localStorage.theme === 'dark' || !('theme' in localStorage)) {
+        document.querySelector('html').classList.add('dark');
+        document.querySelector('html').style.colorScheme = 'dark';
+      } else {
+        document.querySelector('html').classList.remove('dark');
+        document.querySelector('html').style.colorScheme = 'light';
+      }        
+    </script>      
+  </head>
+  <body class="font-inter antialiased bg-gray-100 dark:bg-gray-900 text-gray-600 dark:text-gray-400">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+        if (localStorage.getItem('sidebar-expanded') == 'true') {
+            document.querySelector('body').classList.add('sidebar-expanded');
+        } else {
+            document.querySelector('body').classList.remove('sidebar-expanded');
+        }
+    </script>   
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
